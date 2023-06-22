@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hello-world-gira
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/susdas_quay_org/build-e2e-fbql-tenant/test-app-dxyy/devfile-sample-hello-world-gira@sha256:bd952d92881e0c822c0fd0b99a1c62f5e27bdc8bf2cb789df89731db9bbf8541
         name: my-nginx
         ports:
         - containerPort: 8080
